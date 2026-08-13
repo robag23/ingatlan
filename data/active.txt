@@ -1,0 +1,5 @@
+# AKTÍV / ELADÓ INGATLANOK
+# Egy hirdetéslink egy sorban. Új ingatlannál csak adj hozzá egy új sort.
+https://ingatlan.com/31702370
+https://ingatlan.com/35247706
+https://ingatlan.com/35045761

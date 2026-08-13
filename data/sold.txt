@@ -1,0 +1,3 @@
+# ELADOTT INGATLANOK
+# Ha egy ingatlan elkelt, vágd ki az active.txt-ből és tedd ide.
+https://ingatlan.com/35334800
