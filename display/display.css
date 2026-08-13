@@ -1,0 +1,212 @@
+
+:root{
+  --gold:#d7a52f;
+  --gold2:#efc55b;
+  --green:#168348;
+  --black:#070807;
+}
+*{box-sizing:border-box}
+html,body{
+  margin:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:#070807;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+}
+#display{
+  position:relative;
+  width:100vw;
+  height:100vh;
+  background:#070807;
+}
+.screen{
+  position:absolute;
+  inset:0;
+  opacity:0;
+  transition:opacity .8s ease;
+  pointer-events:none;
+}
+.screen.active{opacity:1}
+
+/* INGATLAN SLIDE */
+.property-slide{
+  display:grid;
+  grid-template-columns:64% 36%;
+  background:#0d0f0d;
+}
+.photo{
+  position:relative;
+  overflow:hidden;
+  background:#171917;
+}
+.photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.photo::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top,rgba(0,0,0,.58),rgba(0,0,0,.04) 52%,rgba(0,0,0,.16));
+}
+.tag{
+  position:absolute;
+  top:4vh;
+  right:4vh;
+  z-index:4;
+  padding:1.2vh 2vh;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--gold2),var(--gold));
+  color:#111;
+  font-size:2vh;
+  font-weight:900;
+  letter-spacing:.08em;
+  box-shadow:0 8px 24px rgba(0,0,0,.3);
+}
+.panel{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:6vh 4.5vh;
+  background:linear-gradient(145deg,#0d0f0d,#171a17);
+}
+.location{
+  color:var(--gold2);
+  text-transform:uppercase;
+  letter-spacing:.13em;
+  font-weight:900;
+  font-size:1.9vh;
+}
+.panel h1{
+  font-size:4.8vh;
+  line-height:1.08;
+  margin:1.5vh 0 2.6vh;
+}
+.meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1vh;
+}
+.meta span{
+  border:1px solid #3c423c;
+  background:#151815;
+  border-radius:999px;
+  padding:1vh 1.4vh;
+  font-size:1.9vh;
+}
+.old{
+  margin-top:2.5vh;
+  color:#aeb2ae;
+  text-decoration:line-through;
+  font-size:2vh;
+}
+.price{
+  color:var(--gold2);
+  font-size:4.4vh;
+  font-weight:900;
+  margin:2.6vh 0 1.8vh;
+}
+.desc{
+  margin:0;
+  color:#d5d8d5;
+  font-size:1.9vh;
+  line-height:1.5;
+}
+.contact{
+  margin-top:auto;
+  padding-top:2.8vh;
+  border-top:1px solid #343934;
+  font-size:2vh;
+  line-height:1.55;
+}
+.contact strong{
+  display:block;
+  color:var(--gold2);
+  font-size:2.5vh;
+  margin-bottom:.5vh;
+}
+
+/* SAJÁT SZÖVEGES REKLÁM */
+.ad-text{
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:6vw;
+  background:
+    radial-gradient(circle at 50% 28%,rgba(215,165,47,.18),transparent 30%),
+    linear-gradient(145deg,#070807,#151915);
+}
+.ad-inner{max-width:1200px}
+.ad-eyebrow{
+  color:var(--gold2);
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-size:2.2vh;
+  font-weight:900;
+}
+.ad-text h2{
+  margin:2vh 0;
+  font-size:7vh;
+  line-height:1;
+}
+.ad-text p{
+  margin:0 auto;
+  max-width:1000px;
+  color:#dedfdd;
+  font-size:3vh;
+  line-height:1.45;
+}
+.ad-phone{
+  margin-top:4vh;
+  color:var(--gold2);
+  font-size:4.6vh;
+  font-weight:900;
+}
+.ad-footer{
+  margin-top:2vh;
+  font-size:2.2vh;
+  color:#f3f3f1;
+}
+
+/* SAJÁT KÉPES REKLÁM */
+.ad-image{
+  display:grid;
+  place-items:center;
+  background:#050605;
+}
+.ad-image img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+}
+
+/* alsó időcsík */
+.progress{
+  position:fixed;
+  left:0;
+  bottom:0;
+  z-index:50;
+  height:6px;
+  background:var(--gold);
+  width:0;
+}
+.progress.run{
+  animation:progress 10s linear forwards;
+}
+@keyframes progress{
+  from{width:0}
+  to{width:100%}
+}
+
+/* 16:9 TV-kre optimalizálva, de keskenyebb kijelzőn is használható */
+@media(max-aspect-ratio:4/3){
+  .property-slide{grid-template-columns:58% 42%}
+  .panel h1{font-size:4.2vh}
+  .price{font-size:3.8vh}
+}
