@@ -1,0 +1,36 @@
+KIRAKATI V5 – TÖBB KÉP + LOGÓ + TORZÍTÁSMENTES MEGJELENÍTÉS
+
+Változások:
+- A képek többé nem nyúlnak/szélesednek el.
+- A főfotó object-fit: contain módban jelenik meg.
+- Az üres széleket ugyanannak a képnek egy sötétített, elmosott háttere tölti ki.
+- Egy ingatlanhoz 1, 2 vagy 3 kép is megadható.
+- Több kép esetén a képek 3,5 másodpercenként automatikusan váltanak ugyanazon a dián.
+- Egy ingatlan dia 12 másodpercig látszik.
+- Minden ingatlan dián látható a Sziget-Baracsi logó a jobb oldali információs panelen.
+- A saját szöveges reklámokon is van logó.
+
+TÖBB KÉP HOZZÁADÁSA EGY INGATLANHOZ
+
+Példa:
+assets/images/35247706.jpg
+assets/images/35247706-2.jpg
+assets/images/35247706-3.jpg
+
+data/properties.json:
+
+"image": "assets/images/35247706.jpg",
+"images": [
+  "assets/images/35247706.jpg",
+  "assets/images/35247706-2.jpg",
+  "assets/images/35247706-3.jpg"
+]
+
+Nem kötelező 3 kép. Lehet 1 vagy 2 is.
+
+MOST CSERÉLENDŐ:
+- display/display.js
+- display/display.css
+- data/properties.json
+
+A teljes ZIP a korábbi Facebook + weboldal hyperlink módosításokat is tartalmazza.
