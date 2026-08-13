@@ -1,0 +1,22 @@
+V6 MOBIL JAVÍTÁS
+
+Javítva:
+- hamburger menü minden oldalon
+- mobilon a felső navigáció nem esik szét
+- nagy logó mobilon automatikusan kisebbre vált
+- a főoldali banner/hero mobilon arányosan jelenik meg
+- a CTA gombok nem lógnak ki a képernyőről
+- 1 oszlopos mobil ingatlankártyák
+- mobil footer és Baracsi Éva blokk finomhangolva
+
+Minimum cserélendő/feltöltendő:
+1. index.html
+2. properties.html
+3. sold.html
+4. services.html
+5. about.html
+6. contact.html
+7. assets/css/style.css
+8. assets/js/mobile-menu.js
+
+A legegyszerűbb: a teljes ZIP tartalmával írd felül a jelenlegi repositoryt.
