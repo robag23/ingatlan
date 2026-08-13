@@ -1,0 +1,50 @@
+[
+  {
+    "id": "35247706",
+    "status": "active",
+    "badge": "ÚJ",
+    "featured": true,
+    "city": "Szigetvár",
+    "type": "Családi ház",
+    "price": "42 900 000 Ft",
+    "oldPrice": "",
+    "area": "84 m²",
+    "rooms": "3 szoba",
+    "plot": "714 m² telek",
+    "description": "Világos, kényelmes családi ház Szigetváron. További részletekért nyissa meg a teljes hirdetést.",
+    "image": "images/property-1.svg",
+    "url": "https://ingatlan.com/35247706"
+  },
+  {
+    "id": "demo-2",
+    "status": "active",
+    "badge": "ÁRCSÖKKENÉS",
+    "featured": false,
+    "city": "Szigetvár",
+    "type": "Családi ház",
+    "price": "36 900 000 Ft",
+    "oldPrice": "39 900 000 Ft",
+    "area": "102 m²",
+    "rooms": "4 szoba",
+    "plot": "820 m² telek",
+    "description": "Bemutató ingatlan a sablon teszteléséhez. Cserélhető valódi hirdetésre.",
+    "image": "images/property-2.svg",
+    "url": "https://ingatlan.com/"
+  },
+  {
+    "id": "demo-3",
+    "status": "sold",
+    "badge": "ELADVA",
+    "featured": false,
+    "city": "Szigetvár",
+    "type": "Lakás",
+    "price": "Eladva",
+    "oldPrice": "",
+    "area": "63 m²",
+    "rooms": "2 + 1 fél szoba",
+    "plot": "",
+    "description": "Korábban sikeresen értékesített ingatlan – referencia a leendő eladók számára.",
+    "image": "images/property-3.svg",
+    "url": ""
+  }
+]
