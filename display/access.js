@@ -1,5 +1,5 @@
 
-const DISPLAY_PIN = "731942";
+const DISPLAY_PIN = "7900";
 const STORAGE_KEY = "szb_display_access_v2";
 
 function unlockDisplay() {
