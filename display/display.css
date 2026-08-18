@@ -1,0 +1,102 @@
+
+:root{--gold:#d7a52f;--gold2:#efc55b}
+*{box-sizing:border-box}
+html,body{
+  margin:0;width:100%;height:100%;overflow:hidden;
+  background:#050605;color:#fff;font-family:Arial,Helvetica,sans-serif
+}
+#display{position:relative;width:100vw;height:100vh;background:#050605}
+
+.screen{
+  position:absolute;inset:0;
+  opacity:0;
+  transform:scale(1.006);
+  transition:opacity .8s ease,transform .8s ease;
+  pointer-events:none;
+}
+.screen.active{opacity:1;transform:scale(1);z-index:2}
+
+.property-slide{
+  display:grid;
+  grid-template-columns:66% 34%;
+  background:#0d0f0d
+}
+.photo-stage{position:relative;overflow:hidden;background:#111}
+.photo-blur{
+  position:absolute;inset:-30px;
+  background-size:cover;background-position:center;
+  filter:blur(24px) brightness(.42);
+  transform:scale(1.09)
+}
+.photo-main{position:absolute;inset:0;display:grid;place-items:center}
+.property-photo{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:contain;object-position:center;
+  opacity:0;transition:opacity .55s ease;z-index:2
+}
+.property-photo.active-photo{opacity:1}
+
+.photo-dots{
+  position:absolute;left:50%;bottom:2vh;transform:translateX(-50%);
+  z-index:8;display:flex;gap:7px
+}
+.photo-dots span{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.4)}
+.photo-dots span.active-dot{background:var(--gold2)}
+
+.tag{
+  position:absolute;top:3vh;right:3vh;z-index:9;
+  padding:1vh 1.7vh;border-radius:999px;
+  background:linear-gradient(135deg,var(--gold2),var(--gold));
+  color:#111;font-size:1.7vh;font-weight:900;letter-spacing:.08em
+}
+
+.panel{
+  display:flex;flex-direction:column;
+  padding:3.8vh 3vh;
+  background:linear-gradient(145deg,#0c0e0c,#171a17)
+}
+.display-logo{
+  width:min(90%,340px);max-height:20vh;
+  object-fit:contain;margin:0 auto 2vh;border-radius:9px
+}
+.property-info{margin:auto 0}
+.location{
+  color:var(--gold2);text-transform:uppercase;
+  letter-spacing:.12em;font-weight:900;font-size:1.65vh
+}
+.panel h1{font-size:3.8vh;line-height:1.05;margin:1vh 0 1.8vh}
+.meta{display:flex;flex-wrap:wrap;gap:.8vh}
+.meta span{
+  border:1px solid #3c423c;background:#151815;
+  border-radius:999px;padding:.75vh 1.15vh;font-size:1.6vh
+}
+.old{margin-top:1.8vh;color:#aeb2ae;text-decoration:line-through;font-size:1.7vh}
+.price{color:var(--gold2);font-size:3.8vh;font-weight:900;margin:1.7vh 0 1.2vh}
+.desc{
+  margin:0;color:#d5d8d5;font-size:1.55vh;line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden
+}
+.contact{
+  padding-top:1.8vh;border-top:1px solid #343934;
+  font-size:1.65vh;line-height:1.45
+}
+.contact strong{display:block;color:var(--gold2);font-size:2.2vh;margin-bottom:.3vh}
+
+/* Advertisement slides are full-screen and never distorted */
+.ad-image{display:grid;place-items:center;background:#050605}
+.ad-image img{
+  width:100%;height:100%;
+  object-fit:contain;object-position:center;
+  display:block;background:#050605
+}
+
+.progress{
+  position:fixed;left:0;bottom:0;z-index:50;
+  height:5px;background:var(--gold);width:0
+}
+@keyframes progress{from{width:0}to{width:100%}}
+
+@media(max-aspect-ratio:4/3){
+  .property-slide{grid-template-columns:60% 40%}
+}
