@@ -1,0 +1,44 @@
+[
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094424.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 1"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094508.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 2"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094538.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 3"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094602.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 4"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094625.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 5"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094644.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 6"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094727.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 7"
+  }
+]
