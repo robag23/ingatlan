@@ -1,37 +1,42 @@
 
-const DISPLAY_PIN_HASH = "b7f4fff9b569a0bc87e6b1ef6c0e4c49c08777c9c9aa5eb6c0727edd840a24b8";
-const STORAGE_KEY = "szb_display_access";
-
-async function sha256(text) {
-  const data = new TextEncoder().encode(text);
-  const hash = await crypto.subtle.digest("SHA-256", data);
-  return [...new Uint8Array(hash)].map(b => b.toString(16).padStart(2,"0")).join("");
-}
+const DISPLAY_PIN = "731942";
+const STORAGE_KEY = "szb_display_access_v2";
 
 function unlockDisplay() {
   document.body.classList.remove("display-locked");
   const gate = document.getElementById("accessGate");
-  if(gate) gate.remove();
+  if (gate) gate.remove();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  if(localStorage.getItem(STORAGE_KEY) === DISPLAY_PIN_HASH) {
-    unlockDisplay();
-    return;
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    if (localStorage.getItem(STORAGE_KEY) === "ok") {
+      unlockDisplay();
+      return;
+    }
+  } catch (e) {
+    // Ha a böngésző tiltja a localStorage-ot, attól még működjön a PIN.
   }
 
   const form = document.getElementById("accessForm");
   const pin = document.getElementById("accessPin");
   const error = document.getElementById("accessError");
 
-  form?.addEventListener("submit", async (e) => {
+  if (!form || !pin) {
+    unlockDisplay();
+    return;
+  }
+
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    const h = await sha256(pin.value.trim());
-    if(h === DISPLAY_PIN_HASH) {
-      localStorage.setItem(STORAGE_KEY, h);
+
+    if (pin.value.trim() === DISPLAY_PIN) {
+      try {
+        localStorage.setItem(STORAGE_KEY, "ok");
+      } catch (e) {}
       unlockDisplay();
     } else {
-      error.textContent = "Hibás hozzáférési kód.";
+      if (error) error.textContent = "Hibás hozzáférési kód.";
       pin.value = "";
       pin.focus();
     }
