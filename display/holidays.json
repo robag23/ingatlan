@@ -1,0 +1,58 @@
+[
+  {
+    "month": 1,
+    "day": 1,
+    "title": "Boldog új évet!",
+    "subtitle": "Sikerekben és otthonokban gazdag új évet kíván a Sziget-Baracsi Ingatlan!",
+    "daysBefore": 1,
+    "daysAfter": 1
+  },
+  {
+    "month": 3,
+    "day": 15,
+    "title": "Március 15.",
+    "subtitle": "Tisztelettel emlékezünk az 1848–49-es forradalom és szabadságharc hőseire.",
+    "daysBefore": 1,
+    "daysAfter": 0
+  },
+  {
+    "month": 8,
+    "day": 20,
+    "title": "Augusztus 20.",
+    "subtitle": "Szent István király és az államalapítás ünnepe.",
+    "daysBefore": 1,
+    "daysAfter": 0
+  },
+  {
+    "month": 9,
+    "day": 7,
+    "title": "Szigetvár 1566",
+    "subtitle": "Tisztelettel emlékezünk Zrínyi Miklósra és Szigetvár hős várvédőire.",
+    "daysBefore": 2,
+    "daysAfter": 0
+  },
+  {
+    "month": 10,
+    "day": 23,
+    "title": "Október 23.",
+    "subtitle": "Tisztelettel emlékezünk az 1956-os forradalom és szabadságharc hőseire.",
+    "daysBefore": 1,
+    "daysAfter": 0
+  },
+  {
+    "month": 12,
+    "day": 24,
+    "title": "Kellemes karácsonyi ünnepeket!",
+    "subtitle": "Békés, meghitt ünnepeket kíván a Sziget-Baracsi Ingatlan!",
+    "daysBefore": 3,
+    "daysAfter": 2
+  },
+  {
+    "month": 12,
+    "day": 31,
+    "title": "Boldog új évet!",
+    "subtitle": "Köszönjük az egész éves bizalmat!",
+    "daysBefore": 1,
+    "daysAfter": 0
+  }
+]
