@@ -1,22 +1,43 @@
-[
+
   {
     "active": true,
-    "type": "text",
-    "eyebrow": "Sziget-Baracsi Ingatlan",
-    "title": "Eladná ingatlanát?",
-    "text": "Helyi tapasztalat. Személyes ügyintézés. Szakértelem. Tapasztalat. Eredmények.",
-    "phone": "+36 70 319 6582",
-    "address": "7900 Szigetvár, József A. utca 35.",
-    "website": "www.szigetvaringatlan.hu  •  facebook.com/szigetbaracsi"
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094424.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 1"
   },
   {
     "active": true,
-    "type": "text",
-    "eyebrow": "Ingatlant keresünk",
-    "title": "Szigetvár és környéke",
-    "text": "Ha eladná házát, lakását, telkét vagy üzleti ingatlanát, keressen minket bizalommal.",
-    "phone": "+36 70 319 6582",
-    "address": "Sziget-Baracsi Ingatlan",
-    "website": "www.szigetvaringatlan.hu  •  facebook.com/szigetbaracsi"
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094508.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 2"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094538.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 3"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094602.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 4"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094625.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 5"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094644.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 6"
+  },
+  {
+    "active": true,
+    "type": "image",
+    "image": "ads/Screenshot 2026-08-18 094727.png",
+    "alt": "Sziget-Baracsi Ingatlan reklám 7"
   }
-]
