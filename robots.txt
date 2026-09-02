@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /display/
+
+Sitemap: https://szigetvarhomes.com/sitemap.xml
