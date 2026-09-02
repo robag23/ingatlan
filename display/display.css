@@ -1,0 +1,61 @@
+
+:root{--gold:#d7a52f;--gold2:#efc55b;--green:#168348;--black:#070807}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#070807;color:#fff;font-family:Arial,Helvetica,sans-serif}
+#display{position:relative;width:100vw;height:100vh;background:#070807}
+.screen{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;pointer-events:none}
+.screen.active{opacity:1}
+
+/* Ingatlan: a kép SOHA nem torzul. A háttér kitölti a helyet, a főfotó contain. */
+.property-slide{display:grid;grid-template-columns:66% 34%;background:#0d0f0d}
+.photo-stage{position:relative;overflow:hidden;background:#111}
+.photo-blur{position:absolute;inset:-30px;background-position:center;background-size:cover;filter:blur(24px) brightness(.42);transform:scale(1.08)}
+.photo-main{position:absolute;inset:0;display:grid;place-items:center}
+.property-photo{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;
+  opacity:0;transition:opacity .65s ease;z-index:2
+}
+.property-photo.active-photo{opacity:1}
+.photo-dots{position:absolute;left:50%;bottom:2.2vh;transform:translateX(-50%);z-index:8;display:flex;gap:8px}
+.photo-dots span{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.45)}
+.photo-dots span.active-dot{background:#efc55b}
+.tag{position:absolute;top:3vh;right:3vh;z-index:9;padding:1vh 1.7vh;border-radius:999px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;font-size:1.7vh;font-weight:900;letter-spacing:.08em}
+
+.panel{position:relative;display:flex;flex-direction:column;padding:4vh 3.2vh;background:linear-gradient(145deg,#0d0f0d,#171a17)}
+.display-logo{
+  width:min(90%,360px);height:auto;max-height:22vh;object-fit:contain;align-self:center;
+  margin:0 auto 2.5vh;display:block;border-radius:10px
+}
+.property-info{margin:auto 0}
+.location{color:var(--gold2);text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:1.7vh}
+.panel h1{font-size:4vh;line-height:1.05;margin:1vh 0 2vh}
+.meta{display:flex;flex-wrap:wrap;gap:.8vh}
+.meta span{border:1px solid #3c423c;background:#151815;border-radius:999px;padding:.8vh 1.2vh;font-size:1.65vh}
+.old{margin-top:2vh;color:#aeb2ae;text-decoration:line-through;font-size:1.8vh}
+.price{color:var(--gold2);font-size:4vh;font-weight:900;margin:2vh 0 1.3vh}
+.desc{margin:0;color:#d5d8d5;font-size:1.65vh;line-height:1.45;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.contact{padding-top:2vh;border-top:1px solid #343934;font-size:1.7vh;line-height:1.5}
+.contact strong{display:block;color:var(--gold2);font-size:2.3vh;margin-bottom:.3vh}
+
+/* Saját reklám */
+.ad-text{display:grid;place-items:center;text-align:center;padding:5vw;background:radial-gradient(circle at 50% 28%,rgba(215,165,47,.18),transparent 30%),linear-gradient(145deg,#070807,#151915)}
+.ad-inner{max-width:1200px}
+.ad-logo{width:min(480px,45vw);max-height:28vh;object-fit:contain;margin:0 auto 2vh;display:block}
+.ad-eyebrow{color:var(--gold2);text-transform:uppercase;letter-spacing:.16em;font-size:2vh;font-weight:900}
+.ad-text h2{margin:1.5vh 0;font-size:6vh;line-height:1}
+.ad-text p{margin:0 auto;max-width:1000px;color:#dedfdd;font-size:2.6vh;line-height:1.4}
+.ad-phone{margin-top:3vh;color:var(--gold2);font-size:4vh;font-weight:900}
+.ad-footer{margin-top:1.5vh;font-size:2vh;color:#f3f3f1}
+.ad-image{display:grid;place-items:center;background:#050605}
+.ad-image img{width:100%;height:100%;object-fit:contain;display:block}
+
+.progress{position:fixed;left:0;bottom:0;z-index:50;height:6px;background:var(--gold);width:0}
+.progress.run{animation:progress 12s linear forwards}
+@keyframes progress{from{width:0}to{width:100%}}
+
+@media(max-aspect-ratio:4/3){
+  .property-slide{grid-template-columns:60% 40%}
+  .display-logo{max-height:18vh}
+  .panel h1{font-size:3.5vh}
+  .price{font-size:3.5vh}
+}

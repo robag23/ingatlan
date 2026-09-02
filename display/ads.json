@@ -1,0 +1,22 @@
+[
+  {
+    "active": true,
+    "type": "text",
+    "eyebrow": "Sziget-Baracsi Ingatlan",
+    "title": "Eladná ingatlanát?",
+    "text": "Helyi tapasztalat. Személyes ügyintézés. Szakértelem. Tapasztalat. Eredmények.",
+    "phone": "+36 70 319 6582",
+    "address": "7900 Szigetvár, József A. utca 35.",
+    "website": "www.szigetvaringatlan.hu  •  facebook.com/szigetbaracsi"
+  },
+  {
+    "active": true,
+    "type": "text",
+    "eyebrow": "Ingatlant keresünk",
+    "title": "Szigetvár és környéke",
+    "text": "Ha eladná házát, lakását, telkét vagy üzleti ingatlanát, keressen minket bizalommal.",
+    "phone": "+36 70 319 6582",
+    "address": "Sziget-Baracsi Ingatlan",
+    "website": "www.szigetvaringatlan.hu  •  facebook.com/szigetbaracsi"
+  }
+]
