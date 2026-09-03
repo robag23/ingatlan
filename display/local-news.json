@@ -1,22 +1,26 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "aug. 28.",
-      "title": "Vágányzári információk – szeptember 7–18. között egyes vonatok menetrendje módosul."
+      "title": "Vágányzári információk"
     },
     {
       "date": "aug. 27.",
-      "title": "Megjelent a Zrínyi Napok 2026 programfüzete."
+      "title": "Zrínyi Napok 2026 programjai"
     },
     {
       "date": "aug. 26.",
-      "title": "Tervezett áramszünet Szigetváron 2026. szeptember 3-án 08:30–14:00 között."
+      "title": "Tájékoztatás tervezett áramszünetről"
     },
     {
-      "date": "szept. 11–13.",
-      "title": "Zrínyi Napok 2026 – kiemelt városi rendezvény."
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi tér"
     }
   ]
 }
