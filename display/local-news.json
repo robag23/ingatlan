@@ -1,14 +1,10 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
       "title": "Meghívó kiállításmegnyitóra és könyvbemutatóra"
-    },
-    {
-      "date": "",
-      "title": "Zrínyi tér"
     },
     {
       "date": "Oktatási és nevelési int",
@@ -21,6 +17,10 @@
     {
       "date": "aug. 28.",
       "title": "Vágányzári információk"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
