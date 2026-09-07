@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
       "title": "Meghívó kiállításmegnyitóra és könyvbemutatóra"
+    },
+    {
+      "date": "",
+      "title": "Zágon Gyula állandó kiállítás"
     },
     {
       "date": "Oktatási és nevelési int",
@@ -17,10 +21,6 @@
     {
       "date": "aug. 28.",
       "title": "Vágányzári információk"
-    },
-    {
-      "date": "Oktatási intézmény",
-      "title": "Zrínyi vár"
     }
   ]
 }
