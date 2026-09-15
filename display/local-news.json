@@ -1,9 +1,13 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
+      "title": "Tájékoztatás tervezett áramszünetről"
+    },
+    {
+      "date": "Oktatási és nevelési int",
       "title": "Tájékoztatás: a Tájékozódási Futó Rövidtávú Országos Bajnokság (ROB) és az Országos Rövidtávú Váltóbajnokság (ORVB) időpontjáról"
     },
     {
@@ -17,10 +21,6 @@
     {
       "date": "2026. szeptember 9-től o",
       "title": "Meghívó kiállításmegnyitóra és könyvbemutatóra"
-    },
-    {
-      "date": "2026. szeptember 9-től o",
-      "title": "Belépőjegyek árai a Zrínyi Napok idején a Szigetvári Zrínyi Várba"
     }
   ]
 }
