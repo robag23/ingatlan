@@ -1,13 +1,17 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
+      "title": "Tájékoztatás forgalmi rend változásról"
+    },
+    {
+      "date": "LAKOSSÁGI TÁJÉKOZTATÓ Sz",
       "title": "Tájékoztatás tervezett áramszünetről"
     },
     {
-      "date": "Oktatási és nevelési int",
+      "date": "LAKOSSÁGI TÁJÉKOZTATÓ Sz",
       "title": "Tájékoztatás: a Tájékozódási Futó Rövidtávú Országos Bajnokság (ROB) és az Országos Rövidtávú Váltóbajnokság (ORVB) időpontjáról"
     },
     {
@@ -17,10 +21,6 @@
     {
       "date": "2026. szeptember 9-től o",
       "title": "TÁJÉKOZTATÓ A ZRÍNYI NAPOK IDEJE ALATTI IDEIGLENES FORGALMI REND VÁLTOZÁSÁRÓL"
-    },
-    {
-      "date": "2026. szeptember 9-től o",
-      "title": "Meghívó kiállításmegnyitóra és könyvbemutatóra"
     }
   ]
 }
