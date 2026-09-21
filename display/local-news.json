@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
-      "title": "Zrínyi Miklós, a költő szobra"
+      "title": "Tervezett áramszünet várható"
+    },
+    {
+      "date": "Oktatási és nevelési int",
+      "title": "Vágányzári információk"
     },
     {
       "date": "Szigetvár Város Önkormán",
@@ -15,12 +19,8 @@
       "title": "Tájékoztatás tervezett áramszünetről"
     },
     {
-      "date": "LAKOSSÁGI TÁJÉKOZTATÓ Sz",
-      "title": "Tájékoztatás: a Tájékozódási Futó Rövidtávú Országos Bajnokság (ROB) és az Országos Rövidtávú Váltóbajnokság (ORVB) időpontjáról"
-    },
-    {
-      "date": "Tisztelt Szigetváriak! T",
-      "title": "Vágányzári információk"
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
