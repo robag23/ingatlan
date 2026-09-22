@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
       "title": "Tervezett áramszünet várható"
+    },
+    {
+      "date": "",
+      "title": "Zrínyi Miklós hadvezér lovas szobra"
     },
     {
       "date": "Oktatási és nevelési int",
@@ -17,10 +21,6 @@
     {
       "date": "LAKOSSÁGI TÁJÉKOZTATÓ Sz",
       "title": "Tájékoztatás tervezett áramszünetről"
-    },
-    {
-      "date": "Oktatási intézmény",
-      "title": "Zrínyi vár"
     }
   ]
 }
