@@ -1,7 +1,11 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
+    {
+      "date": "",
+      "title": "Vágányzári információ"
+    },
     {
       "date": "Oktatási és nevelési int",
       "title": "Tervezett áramszünet várható"
@@ -13,10 +17,6 @@
     {
       "date": "Szigetvár Város Önkormán",
       "title": "Tájékoztatás forgalmi rend változásról"
-    },
-    {
-      "date": "LAKOSSÁGI TÁJÉKOZTATÓ Sz",
-      "title": "Tájékoztatás tervezett áramszünetről"
     },
     {
       "date": "Oktatási intézmény",
