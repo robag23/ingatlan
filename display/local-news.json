@@ -1,9 +1,13 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
+      "title": "Tervezett áramszünet várható"
+    },
+    {
+      "date": "Oktatási és nevelési int",
       "title": "MEGHÍVÓ a Város Napja alkalmából szervezett ünnepi programokra"
     },
     {
@@ -15,12 +19,8 @@
       "title": "Vágányzári információ"
     },
     {
-      "date": "Szigetvár Város Önkormán",
-      "title": "Tervezett áramszünet várható"
-    },
-    {
-      "date": "Szigetvár Város Önkormán",
-      "title": "Vágányzári információk"
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
