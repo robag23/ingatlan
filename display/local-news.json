@@ -1,9 +1,17 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-05",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
-      "date": "jQuery.extend(Drupal.set",
+      "date": "okt. 05.",
+      "title": "Tájékoztatás tervezett áramszünetről"
+    },
+    {
+      "date": "okt. 05.",
+      "title": "Vágányzári információ"
+    },
+    {
+      "date": "okt. 02.",
       "title": "Szigetvári Zrínyi Mikós Fúvószenekar 40 éves Jubileumi hangversenye"
     },
     {
@@ -11,16 +19,8 @@
       "title": "Tájékoztatás a városi kitüntetések adományozásáról"
     },
     {
-      "date": "okt. 02.",
-      "title": "Tervezett áramszünet várható"
-    },
-    {
-      "date": "okt. 02.",
-      "title": "MEGHÍVÓ a Város Napja alkalmából szervezett ünnepi programokra"
-    },
-    {
-      "date": "okt. 02.",
-      "title": "Meghívó ünnepi képviselő-testületi ülésre"
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
