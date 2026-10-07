@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
@@ -11,16 +11,16 @@
       "title": "Vágányzári információ"
     },
     {
-      "date": "okt. 02.",
-      "title": "Szigetvári Zrínyi Mikós Fúvószenekar 40 éves Jubileumi hangversenye"
-    },
-    {
       "date": "Oktatási intézmény",
       "title": "Zrínyi vár"
     },
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi tér"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Közérdekű információk"
     }
   ]
 }
