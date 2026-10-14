@@ -1,9 +1,13 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
-      "date": "",
+      "date": "okt. 13.",
+      "title": "LAKOSSÁGI TÁJÉKOZTATÓ - FORGALMI REND VÁLTOZÁSRÓL"
+    },
+    {
+      "date": "okt. 12.",
       "title": "Tájékoztatás a Szigetvári Polgármesteri Hivatal ZÁRVA tartásáról"
     },
     {
@@ -11,16 +15,12 @@
       "title": "Tervezett áramszünet várható - 2026.10.27."
     },
     {
-      "date": "okt. 12.",
-      "title": "Tájékoztatás áramszünet elmaradásáról"
-    },
-    {
-      "date": "okt. 08.",
-      "title": "Meghívó - ünnepi megemlékezés 2026. október 23."
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     },
     {
       "date": "Oktatási intézmény",
-      "title": "Zrínyi vár"
+      "title": "Zrínyi tér"
     }
   ]
 }
