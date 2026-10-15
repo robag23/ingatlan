@@ -1,7 +1,11 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
+    {
+      "date": "",
+      "title": "Tájékoztatás tervezett áramszünet elmaradásról"
+    },
     {
       "date": "okt. 13.",
       "title": "LAKOSSÁGI TÁJÉKOZTATÓ - FORGALMI REND VÁLTOZÁSRÓL"
@@ -9,10 +13,6 @@
     {
       "date": "okt. 12.",
       "title": "Tájékoztatás a Szigetvári Polgármesteri Hivatal ZÁRVA tartásáról"
-    },
-    {
-      "date": "okt. 12.",
-      "title": "Tervezett áramszünet várható - 2026.10.27."
     },
     {
       "date": "Oktatási intézmény",
