@@ -1,9 +1,17 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
+      "title": "Vágányzári információ"
+    },
+    {
+      "date": "okt. 19.",
+      "title": "Tájékoztatás tervezett áramszünetről"
+    },
+    {
+      "date": "okt. 16.",
       "title": "TÁJÉKOZTATÁS TERVEZETT ÚTZÁRRÓL - Szigetvár, Turbéki szőlőhegyen a Cserfa úton és a Muskátli dűlőben"
     },
     {
@@ -13,14 +21,6 @@
     {
       "date": "okt. 15.",
       "title": "Tájékoztatás a Szigetvári Polgármesteri Hivatal 2026.10.16-i NYITVATARTÁSÁRÓL"
-    },
-    {
-      "date": "okt. 15.",
-      "title": "Tájékoztatás tervezett áramszünet elmaradásról"
-    },
-    {
-      "date": "Oktatási intézmény",
-      "title": "Zrínyi vár"
     }
   ]
 }
