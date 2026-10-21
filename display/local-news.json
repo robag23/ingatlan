@@ -1,9 +1,13 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
       "date": "",
+      "title": "Lakossági tájékoztatás hálózatfejlesztés miatt történő szolgáltatás kimaradásáról"
+    },
+    {
+      "date": "okt. 20.",
       "title": "Lakossági tájékoztatás - forgalmirend-változásról"
     },
     {
@@ -17,10 +21,6 @@
     {
       "date": "okt. 16.",
       "title": "TÁJÉKOZTATÁS TERVEZETT ÚTZÁRRÓL - Szigetvár, Turbéki szőlőhegyen a Cserfa úton és a Muskátli dűlőben"
-    },
-    {
-      "date": "okt. 16.",
-      "title": "Tájékoztatás a hulladékszállítási menetrend módosításáról"
     }
   ]
 }
