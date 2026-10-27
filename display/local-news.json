@@ -1,11 +1,7 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
-    {
-      "date": "",
-      "title": "A költő Zrínyi Miklós szobra \"Adria tengerének sirénája\""
-    },
     {
       "date": "okt. 20.",
       "title": "Lakossági tájékoztatás hálózatfejlesztés miatt történő szolgáltatás kimaradásáról"
@@ -21,6 +17,10 @@
     {
       "date": "okt. 19.",
       "title": "Tájékoztatás tervezett áramszünetről"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
