@@ -1,7 +1,11 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
+    {
+      "date": "",
+      "title": "Zágon Gyula állandó kiállítás"
+    },
     {
       "date": "okt. 20.",
       "title": "Lakossági tájékoztatás hálózatfejlesztés miatt történő szolgáltatás kimaradásáról"
@@ -17,10 +21,6 @@
     {
       "date": "okt. 19.",
       "title": "Tájékoztatás tervezett áramszünetről"
-    },
-    {
-      "date": "Oktatási intézmény",
-      "title": "Zrínyi vár"
     }
   ]
 }
