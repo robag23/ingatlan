@@ -1,11 +1,7 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
-    {
-      "date": "",
-      "title": "Zrínyi-emlékmű"
-    },
     {
       "date": "okt. 28.",
       "title": "Lakossági tájékoztatás közmű építési munkálatokkal kapcsolatban"
@@ -21,6 +17,10 @@
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi tér"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Közérdekű információk"
     }
   ]
 }
