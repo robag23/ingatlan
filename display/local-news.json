@@ -1,11 +1,7 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
-    {
-      "date": "jQuery.extend(Drupal.set",
-      "title": "Zrínyi Miklós, a költő szobra"
-    },
     {
       "date": "nov. 04.",
       "title": "Vágányzári hirdetmények"
@@ -21,6 +17,10 @@
     {
       "date": "nov. 02.",
       "title": "Lakossági tájékoztató forgalomkorlátozásról"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Zrínyi vár"
     }
   ]
 }
