@@ -1,18 +1,14 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
-      "date": "",
-      "title": "Zrínyi-emlékmű"
+      "date": "nov. 12.",
+      "title": "Tájékoztatás szociális tűzifa támogatás iránti kérelemről"
     },
     {
       "date": "nov. 10.",
       "title": "Tájékoztatás tervezett áramszünetről"
-    },
-    {
-      "date": "nov. 04.",
-      "title": "Vágányzári hirdetmények"
     },
     {
       "date": "Oktatási intézmény",
@@ -21,6 +17,10 @@
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi tér"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Közérdekű információk"
     }
   ]
 }
