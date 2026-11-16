@@ -1,11 +1,7 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
-    {
-      "date": "",
-      "title": "Zrínyi Miklós hadvezér szobra"
-    },
     {
       "date": "nov. 12.",
       "title": "Tájékoztatás szociális tűzifa támogatás iránti kérelemről"
@@ -21,6 +17,10 @@
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi tér"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Közérdekű információk"
     }
   ]
 }
