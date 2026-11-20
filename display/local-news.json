@@ -1,7 +1,11 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
+    {
+      "date": "",
+      "title": "Tájékoztatás tervezett áramszünetről"
+    },
     {
       "date": "nov. 18.",
       "title": "Tájékoztatás hivatali ügyfélfogadással kapcsolatban"
@@ -17,10 +21,6 @@
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi vár"
-    },
-    {
-      "date": "Oktatási intézmény",
-      "title": "Zrínyi tér"
     }
   ]
 }
