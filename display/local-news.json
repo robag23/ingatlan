@@ -1,18 +1,14 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "source": "https://www.szigetvar.hu/hu/node/1",
   "news": [
     {
-      "date": "",
+      "date": "nov. 25.",
       "title": "Tájékoztatás hulladékszállítással kapcsolatban"
     },
     {
       "date": "nov. 24.",
       "title": "Lakossági tájékoztatás - ügyfélfogadással kapcsolatban"
-    },
-    {
-      "date": "nov. 23.",
-      "title": "Szigetvári Advent - Adni jobb! Adventi nyitány és jótékonysági szeretetvendégség Szigetváron a Zrínyi téren"
     },
     {
       "date": "Oktatási intézmény",
@@ -21,6 +17,10 @@
     {
       "date": "Oktatási intézmény",
       "title": "Zrínyi tér"
+    },
+    {
+      "date": "Oktatási intézmény",
+      "title": "Közérdekű információk"
     }
   ]
 }
